@@ -1,0 +1,12 @@
+{
+  "name": "YT Swipe",
+  "content_scripts": [
+    {
+      "matches" : ["https://*.old.reddit.com/*"],
+      "js" : ["script.js"]
+    }
+  ],
+  "description": "Swipe away YouTube videos",
+  "version": "1.0",
+  "manifest_version": 3
+}
